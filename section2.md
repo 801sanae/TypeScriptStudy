@@ -1,6 +1,9 @@
-# tsconfig.json
+# TypeScript 공부
 
-TS, <-- --> JS <br>
+
+## tsconfig.json
+
+TS <-- --> JS <br>
 
 프로젝트 성격, 버전 등에 따라 컴파일러 옵션을 설정한다. <br>
 

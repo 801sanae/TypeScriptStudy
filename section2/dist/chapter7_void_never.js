@@ -35,5 +35,14 @@ function infiniteLoop() {
 function throwError(message) {
     throw new Error(message);
 }
+let c;
 let b;
+// b = undefined; // error
+// b = null; // error
+// b = 1; // error
+// b = 'hello'; // error
+// b = true; // error
+// b = {}; // error
+// b = []; // error
+b = c; // any도 never 타입 변수에 대입 불가능
 export {};

@@ -9,8 +9,14 @@ https://ts.winterlood.com/
 
 1. [Config, Installation, Compile, Execute](section1.md)
 
-<br><br>
+<br>
 
 2. [tsconfig.json](section2.md)
 
-3. [section3](section3.md)
+
+<br>
+
+3. [TypeScript](section3.md)
+
+<br>
+

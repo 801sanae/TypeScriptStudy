@@ -16,3 +16,8 @@ num2 = num1 // false error
 
 # 타입 계층도
 <img src="img/타입계층도.png"  width="800px"/>
+
+
+
+# 객체 타입의 호환성
+

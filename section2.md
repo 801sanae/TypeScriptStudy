@@ -58,7 +58,8 @@ Created a new tsconfig.json with:
     }
 }
 ```
-> CommonJS, ESNext 해당 명명에 맞는 모듈시스템으로 JS 변환됨.
+> CommonJS, ESNext 해당 명명에 맞는 모듈시스템으로 JS 변환됨.<br>
+>   "type": "module" <- package.json 수정필요
 
 ### outDir
 

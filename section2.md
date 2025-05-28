@@ -70,7 +70,7 @@ Created a new tsconfig.json with:
     }
 }
 ```
-> 빌드된 컴파일 결과가 특정경로에 젖아된다.
+> 빌드된 컴파일 결과가 특정경로에 저장된다.
 
 ### strict
 

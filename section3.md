@@ -196,3 +196,44 @@ let h = [1,"hello", true];
 **let, const**
 - 타입넓히기를 통해 범용적으로 변수를 쓸 수 있다.
 
+
+**서로소 union** 
+- 타입 좁히기를 통해 안정적인 타입을 추론할 수 있다.
+
+```javascript
+type loadingTask ={
+    state : "loading";
+}
+type failedTask = {
+    state : "failed";
+    error : {
+        message : string;
+    };
+}
+type successTask = {
+    state : "success";
+    response : {
+        data : string;
+    };
+}
+
+type AsycTask2 = loadingTask | failedTask | successTask;
+```
+
+<br><br>
+
+```javascript
+function handleTask2(task: AsycTask2) {
+    switch (task.state) {
+        case "loading":
+            console.log("로딩 중...");
+            break;
+        case "failed":
+            console.error(`에러 발생: ${task.error.message}`);
+            break;
+        case "success":
+            console.log(`성공: ${task.response.data}`);
+            break;
+    }
+}
+```

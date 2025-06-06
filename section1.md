@@ -6,6 +6,9 @@
 1. 패키지 생성후 init
 ```js
 npm init
+
+## 기본값으로 프로젝트 생성
+npm init -y
 ```
 
 2. typenode 패키지 설치필요

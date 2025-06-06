@@ -16,7 +16,11 @@ https://ts.winterlood.com/
 
 <br>
 
-3. [TypeScript](section3.md)
+3. [TypeScript](section3.md)의 타입 계층도, 타입추론
+
+<br>
+
+4. [function ](section4.md)
 
 <br>
 

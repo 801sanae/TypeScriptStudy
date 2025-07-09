@@ -28,11 +28,11 @@ let p1 = {
 }
 // 클래스 사용
 class Person {
-    name: string;
-    age: number;
-    grade: string;
+    name;
+    age;
+    grade;
     
-    constructor(name: string, age: number, grade: string) {
+    constructor(name, age, grade) {
         this.name = name;
         this.age = age;
         this.grade = grade;
